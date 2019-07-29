@@ -7,7 +7,7 @@ import java.util.concurrent.TimeUnit;
 public class Main {
     public static void main(String[] args) {
         //connection and work with the FirefoxDriver
-        System.setProperty("webdriver.gecko.driver", "C:\\Users\\bogos\\IdeaProjects\\Mozilaseleniun\\driver\\geckodriver.exe"); // путь
+        System.setProperty("webdriver.gecko.driver", "C:\\Users\\bogos\\IdeaProjects\\Mozilaseleniun\\driver\\geckodriver.exe"); 
 
         WebDriver driver = new FirefoxDriver();
 
